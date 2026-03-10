@@ -1,7 +1,5 @@
-[inccmake](https://github.com/InCom-0/inccmake) is a repository containing collection of CMake scripts, toolchains, modules and various other code related to using CMake in projects effectively. This repository mostly aggregates content of other repositories in 1 place and is putting it in a sensible structure and removes the extra things from those repositories that are not really required. The aim is to be able to include all these things from one place.<br><br>
-One may use submodule or a subtree to include this in other projects. However, it might be best to simply copy&paste (otherwise known as 'vendoring') just the content that one wants/needs directly into your project's repo, since the content of this repo is unlikely to change often and one does not really need to track the changes separately from the upstream projects.
-<br><br>
-<i>Note: The 'main' branch contains just this readme. The content meant for inclusion in other projects in located in the 'aggregate' branch.</i>
+[inccmake](https://github.com/InCom-0/inccmake) is a repository containing collection of CMake scripts, toolchains, modules and various other code related to using CMake in projects effectively. This repository mostly aggregates content of other repositories in 1 place and is putting it in a sensible structure and removes the extra things from those repositories that are not really required. The aim is to be able to include all these things from one place without having to deal with disparate project folder structures of the upstream repos.<br><br>
+<i>Note: One may use submodule or a subtree to include this in other projects. However, it might be best to simply copy&paste (otherwise known as 'vendoring') just the content that one wants/needs directly into your project's repo, since the content of this repo is unlikely to change often and one does not really need to track the changes separately from the upstream projects.</i>
 <br><br>
 
 What it includes:
